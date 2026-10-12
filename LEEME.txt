@@ -1,0 +1,23 @@
+CRYPTOCHART — PROYECTO LISTO PARA GITHUB PAGES
+
+1. Descomprime CryptoChart_GitHub.zip.
+2. Crea un repositorio público en GitHub, por ejemplo cryptochart.
+3. Sube TODO el contenido descomprimido. index.html debe quedar directamente en la raíz del repositorio, junto a assets y favicon.svg. No subas únicamente el ZIP ni solamente index.html.
+4. En Settings > Pages, selecciona Deploy from a branch, rama main, carpeta /(root), y guarda.
+5. Cuando GitHub termine, abre la dirección que muestra Pages.
+
+No necesitas instalar programas ni compilar para publicar estos archivos.
+index.html utiliza los archivos de assets, incluido el Worker de scripts.
+Abre la aplicación desde la URL de GitHub Pages, no haciendo doble clic en index.html.
+
+CÓDIGO FUENTE
+codigo-fuente.zip incluye el proyecto editable, dependencias declaradas y archivo de bloqueo. No hace falta descomprimirlo para publicar.
+Para modificarlo: descomprime ese ZIP en otra carpeta, instala Node.js 22 y ejecuta npm ci, npm run dev. Para generar una nueva publicación: npm run build. Sube el contenido de dist al repositorio.
+
+ALCANCE Y VERIFICACIÓN
+Exportado del proyecto CRIPTO CHART TERMINAL, versión de aplicación 0.4.0, commit 3795d74cefe861be3d52a8f2d2e26b316c4c3040.
+Se compiló correctamente con TypeScript y Vite y se verificaron las referencias de archivos locales. Rutas relativas preparadas para GitHub Pages. No se realizó prueba visual en navegador ni publicación en tu cuenta de GitHub.
+Se conservan las funciones y límites del proyecto existente: subconjunto Pine, alertas locales mientras la app permanece abierta y datos de Binance sujetos a disponibilidad. No ejecuta operaciones de compra o venta.
+Los ajustes guardados en el navegador del sitio anterior no se trasladan automáticamente al dominio GitHub Pages; utiliza las exportaciones/importaciones de la aplicación.
+
+Guía oficial: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
